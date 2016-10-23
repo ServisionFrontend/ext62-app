@@ -1,0 +1,82 @@
+@if $enable-font-open-sans {
+    $triton-font-path: get-resource-path('fonts');
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('#{$triton-font-path}/OpenSans-Light.eot');
+        src: url('#{$triton-font-path}/OpenSans-Light.eot?#iefix') format('embedded-opentype'), url('#{$triton-font-path}/OpenSans-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('#{$triton-font-path}/OpenSans-LightItalic.eot');
+        src: url('#{$triton-font-path}/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'), url('#{$triton-font-path}/OpenSans-LightItalic.ttf') format('truetype');
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('#{$triton-font-path}/OpenSans-Regular.eot');
+        src: url('#{$triton-font-path}/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('#{$triton-font-path}/OpenSans-Regular.ttf') format('truetype');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('#{$triton-font-path}/OpenSans-Italic.eot'); 
+        src: url('#{$triton-font-path}/OpenSans-Italic.eot?#iefix') format('embedded-opentype'), url('#{$triton-font-path}/OpenSans-Italic.ttf') format('truetype');
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('#{$triton-font-path}/OpenSans-Semibold.eot');
+        src: url('#{$triton-font-path}/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'), url('#{$triton-font-path}/OpenSans-Semibold.ttf') format('truetype');
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('#{$triton-font-path}/OpenSans-SemiboldItalic.eot');
+        src: url('#{$triton-font-path}/OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'), url('#{$triton-font-path}/OpenSans-SemiboldItalic.ttf') format('truetype');
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('#{$triton-font-path}/OpenSans-Bold.eot');
+        src: url('#{$triton-font-path}/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), url('#{$triton-font-path}/OpenSans-Bold.ttf') format('truetype');
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('#{$triton-font-path}/OpenSans-BoldItalic.eot');
+        src: url('#{$triton-font-path}/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'), url('#{$triton-font-path}/OpenSans-BoldItalic.ttf') format('truetype');
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('#{$triton-font-path}/OpenSans-ExtraBold.eot');
+        src: url('#{$triton-font-path}/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'), url('#{$triton-font-path}/OpenSans-ExtraBold.ttf') format('truetype');
+        font-weight: 800;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('#{$triton-font-path}/OpenSans-ExtraBoldItalic.eot');
+        src: url('#{$triton-font-path}/OpenSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), url('#{$triton-font-path}/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+        font-weight: 800;
+        font-style: italic;
+    }
+}

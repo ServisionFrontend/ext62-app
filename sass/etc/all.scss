@@ -1,0 +1,36 @@
+/*
+ * This is is imported by virtue of "sass.etc" in "app.json".
+ */
+
+@mixin box-shadow($h-shadow,$v-shadow,$blur,$spread,$shadow-color) {
+  $value: $h-shadow, $v-shadow, $blur, $spread, $shadow-color;
+  -webkit-box-shadow: $value;
+  -moz-box-shadow: $value;
+  -ms-box-shadow: $value;
+  box-shadow: $value;
+}
+
+*:focus {
+  outline:0 !important;
+}
+
+.x-menu-header {
+  z-index: 0 !important;
+}
+
+.x-css-shadow{
+  box-shadow:none !important;
+}
+
+.x-fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 $font-family;
+}
+
+.alignRight {
+  float: right;
+}
+
+.boldFont {
+  font-weight: bold;
+}

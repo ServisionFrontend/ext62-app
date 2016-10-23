@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html manifest="">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, user-scalable=yes">
+
+    <title>App</title>
+
+    <!-- app global config  -->
+    <script type="text/javascript">
+        var App = App || {};
+
+        App.globalConfig ={
+            path: '${path}',
+            resPrefix:'${resPrefix}',
+            restpath: '',
+            cdnPath:'',
+            referenceImageFolder: '',
+            nopicPath:'/style/images/',
+            nopicName:'no-img.png'
+        };
+    </script>
+
+    <!-- app extjs config  -->
+    <script type="text/javascript">
+        var App = App || {};
+
+        App.extjsConfig ={
+            pageCode : "main",
+            pages : {
+                "main" : {
+                    controller : "main.Main",
+                    viewport : "main.Viewport"
+                },
+                "extModel6-21":{
+                    controller : "account.UserManage",
+                    viewport : "account.userManage.Viewport"
+                }
+            }
+        };
+    </script>
+    
+    <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+    <script id="microloader" data-app="93104f22-39dc-465a-817f-41da388320da" type="text/javascript" src="bootstrap.js"></script>
+
+</head>
+<body></body>
+</html>
