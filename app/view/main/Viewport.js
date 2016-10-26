@@ -3,8 +3,8 @@ Ext.define('App.view.main.Viewport', {
 
 	requires: [
 		'Ext.button.Segmented',
-		'Ext.list.Tree',
-		'App.view.main.MainContainerWrap'
+		'App.view.main.MainContainerWrap',
+		'Ext.list.Tree'
 	],
 	controller: 'main',
 	viewModel: 'main',
@@ -65,6 +65,7 @@ Ext.define('App.view.main.Viewport', {
 				itemId: 'navigationTreeList',
 				ui: 'navigation',
 				store: Ext.create('App.store.NavigationTree'),
+				width: 250,
 				expanderFirst: false,
 				expanderOnly: false
 			}]
@@ -81,6 +82,7 @@ Ext.define('App.view.main.Viewport', {
 			items: [{
 				xtype: 'tabpanel',
 				id: "tabs",
+				ui: 'tab-main',
 				items: [{
 					title: '首页',
 					layout: 'fit',

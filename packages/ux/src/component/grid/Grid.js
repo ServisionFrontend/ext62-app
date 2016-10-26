@@ -18,28 +18,33 @@
 		iconCls: 'x-fa fa-plus-square-o',
 		tooltip: '新增',
 		text: '新增',
-		action: 'create'
+		action: 'create',
+		ui: 'gtbar'
 	}, {
 		iconCls: 'x-fa fa-edit',
 		text: '编辑',
 		tooltip: '编辑',
-		action: 'add'
+		action: 'add',
+		ui: 'gtbar'
 	}, {
 		iconCls: 'x-fa fa-trash-o',
 		text: '删除',
 		tooltip: '删除',
 		action: 'add',
-		disabled: true
+		disabled: true,
+		ui: 'gtbar'
 	}, {
 		iconCls: 'x-fa fa-file-excel-o',
 		text: '导入',
 		tooltip: '导入',
-		action: 'add'
+		action: 'add',
+		ui: 'gtbar'
 	}, {
 		iconCls: 'x-fa fa-file-excel-o',
 		text: '导出',
 		tooltip: '导出',
-		action: 'add'
+		action: 'add',
+		ui: 'gtbar'
 	}],
 
 	bbar: {

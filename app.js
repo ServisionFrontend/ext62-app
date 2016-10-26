@@ -8,7 +8,8 @@ Ext.application({
 
 	requires: [
 		'App.*',
-		'Ext.util.Common'
+		'Ext.util.Common',
+		'Ext.ux.proxy.Rest'
 	],
 
 	controllers: [bootPage.controller],

@@ -31,8 +31,7 @@
 		items: [{
 			xtype: 'button',
 			action: "query",
-			text: "查询",
-			ui: 'blue'
+			text: "查询"
 		}, {
 			xtype: 'button',
 			action: "reset",

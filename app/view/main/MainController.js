@@ -34,19 +34,14 @@ Ext.define('App.view.main.MainController', {
 			}
 		});
 
-		// navigationWrap.width = new_width;
 		navigationWrap.width = new_width;
-		// navigationWrap.setWidth(new_width)
 
 		wrapContainer.updateLayout({
 			isRoot: true
 		});
-
 		if (collapsing) {
-			// navigationList.setMicro(true);
 			navigationWrap.on({
 				afterlayoutanimation: function() {
-
 					navigationList.setMicro(true);
 				},
 				single: true

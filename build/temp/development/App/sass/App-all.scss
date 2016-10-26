@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'App' );
-$image-search-path: 'D:/nodejs_test/ext62-app/build/development/App/resources';
+$image-search-path: 'D:/sersivion-git/ext62-app/build/development/App/resources';
 $theme-name:  dynamic( 'theme-triton' );
 $include-app-application: dynamic(true);;
 $include-app-controller-account-usermanage: dynamic(true);;
@@ -984,6 +984,7 @@ $include-ext-ux-event-maker: dynamic(true);;
 $include-ext-ux-event-player: dynamic(true);;
 $include-ext-ux-event-recorder: dynamic(true);;
 $include-ext-ux-event-recordermanager: dynamic(true);;
+$include-ext-ux-fixtreelist-treelist: dynamic(true);;
 $include-ext-ux-form-fileuploadfield: dynamic(true);;
 $include-ext-ux-form-itemselector: dynamic(true);;
 $include-ext-ux-form-multiselect: dynamic(true);;
@@ -1484,6 +1485,14 @@ $relative-image-path-for-uis: $theme-triton-resource-path;
 @import '../../../../../ext/classic/theme-triton/sass/src/menu/Menu';
 @import '../../../../../ext/classic/theme-triton/sass/src/tab/Tab';
 @import '../../../../../ext/classic/theme-triton/sass/src/window/Toast';
+
+/* including package App */
+$App-resource-root: '' !default;
+$App-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $App-resource-root;
+$relative-image-path-for-uis: $App-resource-path;
+@import '../../../../../sass/src/all';
 
 /* including package App */
 $App-resource-root: '' !default;

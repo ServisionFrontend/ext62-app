@@ -1,2 +1,2 @@
 // @tag full-page
-// @require D:\nodejs_test\ext62-app\app.js
+// @require D:\sersivion-git\ext62-app\app.js
