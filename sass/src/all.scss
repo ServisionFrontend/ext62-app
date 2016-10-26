@@ -1,8 +1,8 @@
 @include extjs-button-small-ui(
     $ui:'gtbar',
-    $color:#606060,
-    $glyph-color:#606060,
-    $background-color:#f6f6f6,
-    $border-color:#f6f6f6,
-    $background-color-over:#ececec
+    $color:$gt-color,
+    $glyph-color:$gt-color,
+    $background-color:$gt-btn-bg,
+    $border-color:$gt-btn-bg,
+    $background-color-over:$gt-btn-over-bg
 );

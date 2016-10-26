@@ -41,7 +41,7 @@
 
     // Black-ish background color
     $background-color: $panel-navigation-background-color,
-    $toolstrip-background-color: #32404e,
+    $toolstrip-background-color: $panel-navigation-background-color,
 
     $tool-float-indicator-color: $panel-header-background-color,
     $tool-float-indicator-width: 5px,
@@ -87,7 +87,7 @@
 
 
 .sencha-logo {
-    background-color: #395D91;
+    background-color: $btn-default-bg;
     height: 65px;
     font-size: 14px;
     font-weight:bold;
@@ -313,14 +313,14 @@
 @include extjs-tab-panel-ui(
      $ui:'tab-main',
      $ui-tab-background-opacity-over:1,
-     $ui-tab-background-color-over:#395D91,
+     $ui-tab-background-color-over:$btn-default-bg,
      $ui-tab-margin:0 2px 0 0
 );
 .treelist-with-nav .#{$prefix}panel-body {
-    background-color: #32404e;
+    background-color: $panel-navigation-background-color;
 }
 .sencha-dash-right-main-container{
-    background-color:#304057;
+    background-color:$main-bg;
     z-index:0;
 }
 

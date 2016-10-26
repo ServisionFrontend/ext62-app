@@ -1,3 +1,10 @@
+
+
+//system global button background and hover color
+$button-toolbar-color:#fff;
+$button-toolbar-background-color:#375C91;
+$button-toolbar-background-color-over:#436BA6;
+
 // panel
 $panel-border-color : #dee6ed;
 $panel-header-background-color: #dee6ed;
@@ -50,7 +57,13 @@ $wizard-three-primary-background-color: #9cc96b;
 $wizard-three-button-background-color: #9cc96b;
 
 
-//global button background and hover color
-$button-toolbar-color:#fff;
-$button-toolbar-background-color:#375C91;
-$button-toolbar-background-color-over:#436BA6;
+//main 
+$main-bg:#304057;
+$btn-default-bg:#395D91;
+
+//grid toolbar
+$gt-color:#606060;
+$gt-btn-bg:#f6f6f6;
+$gt-btn-over-bg:#ececec;
+
+
