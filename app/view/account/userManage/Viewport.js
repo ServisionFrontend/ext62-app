@@ -6,14 +6,12 @@ Ext.define('App.view.account.userManage.Viewport', {
 	],
 	defaults: {
 		border: true,
-		margin: '10 10 5 10'
+		margin: '10 10 0 10'
 	},
 	items: [{
-		title: '查询区域',
 		width: '100%',
 		xtype: 'userquery'
 	}, {
-		title: '列表区域',
 		xtype: 'usergrid'
 	}]
 

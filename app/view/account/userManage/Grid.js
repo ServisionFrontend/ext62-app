@@ -36,6 +36,7 @@ Ext.define('App.view.account.userManage.Grid', {
 	}, {
 		text: '修改时间',
 		dataIndex: 'modifiedDate',
+		flex: 1,
 		width: 120
 	}]
 });

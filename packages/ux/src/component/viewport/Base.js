@@ -3,7 +3,7 @@
 	layout: {
 		type: 'vbox'
 	},
-	bodyStyle: 'border:1px solid red;',
+	bodyStyle: 'background:#EEF1F7;',
 	height: 300,
 	defaults: {
 		width: "100%"

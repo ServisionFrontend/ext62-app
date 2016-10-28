@@ -12,8 +12,14 @@
 	viewConfig: {
 		enableTextSelection: true
 	},
+	bodyStyle: 'border-color:#dee2e9;',
 	controlButtons: ["update", "destroy"],
 	destroyKeys: ['code'],
+	ui: 'grid',
+	header: {
+		style: 'border:1px solid #EAEDF1 !important;'
+	},
+	title: '<span class="v-line">列表区域</span>',
 	tbar: [{
 		iconCls: 'x-fa fa-plus-square-o',
 		tooltip: '新增',

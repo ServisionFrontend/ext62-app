@@ -1,15 +1,19 @@
 ﻿Ext.define('Ext.ux.component.filter.Query', {
 	extend: 'Ext.form.Panel',
 	alias: 'widget.componentfilterquery',
-	bodyPadding: '10 10 0 10',
 	autoScroll: true,
 	autoLabelWidth: true,
+	bodyPadding: '10 10 0 10',
+	ui: 'grid',
+	header: {
+		style: 'border:1px solid #EAEDF1 !important;'
+	},
+	title: '<span class="v-line">查询区域</span>',
 	defaults: {
 		xtype: 'form',
 		layout: 'column',
 		border: false,
 		minWidth: 980,
-		margin: '0 0 10 0',
 		defaults: {
 			xtype: 'textfield',
 			margin: '5 10 5 0',
@@ -20,11 +24,14 @@
 	dockedItems: [{
 		xtype: 'toolbar',
 		dock: 'bottom',
+		border: true,
 		layout: {
 			align: 'middle',
 			pack: 'center',
 			type: 'hbox'
 		},
+		height: 'auto',
+		style: 'padding-bottom: 20px;',
 		defaults: {
 			width: 80
 		},

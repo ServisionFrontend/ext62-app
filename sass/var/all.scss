@@ -7,7 +7,7 @@ $button-toolbar-background-color-over:#436BA6;
 
 // panel
 $panel-border-color : #dee6ed;
-$panel-header-background-color: #dee6ed;
+$panel-header-background-color: #395D91;
 $panel-header-color: #6F787F;
 $panel-header-padding: 5px;
 $panel-header-font-size:14;
@@ -18,8 +18,8 @@ $window-header-color: #fff;
 // tree list
 $panel-navigation-background-color: #32404e;
 $panel-navigation-item-line-height: 54px;
-$panel-navigation-item-text-color: #ADB3B8;
-
+$panel-navigation-item-text-color: #cad1da;
+$panel-navigation-item-icon-color:#cad1da;
 $progress-bar-background-color: #458fd2;
 
 // button
@@ -60,10 +60,35 @@ $wizard-three-button-background-color: #9cc96b;
 //main 
 $main-bg:#304057;
 $btn-default-bg:#395D91;
+$v-line-color:#395D91;
+
+//textfield
+$form-text-field-border-color:#dee2e9;
 
 //grid toolbar
 $gt-color:#606060;
-$gt-btn-bg:#f6f6f6;
+$gt-btn-bg:#fff;
 $gt-btn-over-bg:#ececec;
+$gt-btn-border-color-over:#E4E7EE;
+$gt-bg-focus-color:#ECEFF4;
 
+//头部背景色
+$grid-header-background-color:#f4f7fc;
+$grid-header-border-color:#dee2e9;
+//背景色
+// $grid-body-background-color:#f7f9fd;
+//隔行色
+$grid-row-cell-alt-background-color:#f2f6fd;
+//选中色
+$grid-row-cell-selected-background-color:#e1e8f4;
+//hover
+$grid-row-cell-over-background-color:#e9eef7;
+//column width
+$grid-column-header-border-width:0;
+$grid-row-cell-border-width:0;
+$grid-body-border-width:1px 1px 1px;
+//focus border
+$grid-row-cell-focus-border-width:0;
 
+$ext-trial:false;
+$ext-beta:false;

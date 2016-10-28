@@ -1,3 +1,240 @@
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1065 */
+.x-btn.x-btn-disabled .x-btn-soft-green-large-mc {
+    background-color: #9cc96b;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1075 */
+.x-nbr .x-btn-soft-green-large {
+    background-image: none;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1081 */
+.x-btn-disabled.x-btn-soft-green-large {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1100 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-soft-green-large.x-segmented-button-first {
+    border-right-width: 1px !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1102 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-soft-green-large.x-segmented-button-first .x-btn-soft-green-large-mc {
+    padding-right: 9px !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1106 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-soft-green-large.x-segmented-button-middle {
+    border-right-width: 1px !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1108 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-soft-green-large.x-segmented-button-middle .x-btn-soft-green-large-mc {
+    padding-right: 9px !important;
+    padding-left: 9px !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1114 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-soft-green-large.x-segmented-button-last .x-btn-soft-green-large-mc {
+    padding-left: 9px !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1121 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-soft-green-large.x-segmented-button-first {
+    border-bottom-width: 1px !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1123 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-soft-green-large.x-segmented-button-first .x-btn-soft-green-large-mc {
+    padding-bottom: 9px !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1127 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-soft-green-large.x-segmented-button-middle {
+    border-bottom-width: 1px !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1129 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-soft-green-large.x-segmented-button-middle .x-btn-soft-green-large-mc {
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1135 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-soft-green-large.x-segmented-button-last .x-btn-soft-green-large-mc {
+    padding-top: 9px !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1141 */
+.x-nbr .x-segmented-button-item.x-btn-soft-green-large:after {
+    content: ' ';
+    border-style: solid;
+    border-width: 0;
+    position: absolute;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1159 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-soft-green-large:after {
+    top: 1px;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1165 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-soft-green-large.x-segmented-button-first:after {
+    left: 1px;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1168 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-soft-green-large.x-segmented-button-last:after {
+    right: 1px;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1174 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-soft-green-large:after {
+    top: 0;
+    right: 1px;
+    bottom: 0;
+    left: 1px;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1180 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-soft-green-large.x-segmented-button-first:after {
+    top: 1px;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1183 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-soft-green-large.x-segmented-button-last:after {
+    bottom: 1px;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1190 */
+.x-nbr .x-segmented-button-item.x-btn-focus.x-btn-soft-green-large:after {
+    border-width: 1px;
+    border-color: #cacdd1;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1204 */
+.x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-soft-green-large:after {
+    border-width: 1px;
+    border-color: #c9ccd0;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1219 */
+.x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-soft-green-large:after,
+.x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-soft-green-large:after {
+    border-width: 1px;
+    border-color: #c7cacd;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-btn-focus.x-btn-soft-green-large:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-soft-green-large-focus-corners.gif), sides:url(images/btn/btn-soft-green-large-focus-sides.gif)" !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-btn-over.x-btn-soft-green-large:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-soft-green-large-over-corners.gif), sides:url(images/btn/btn-soft-green-large-over-sides.gif)" !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-soft-green-large:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-soft-green-large-focus-over-corners.gif), sides:url(images/btn/btn-soft-green-large-focus-over-sides.gif)" !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-btn-pressed.x-btn-soft-green-large:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-soft-green-large-pressed-corners.gif), sides:url(images/btn/btn-soft-green-large-pressed-sides.gif)" !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-soft-green-large:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-soft-green-large-focus-pressed-corners.gif), sides:url(images/btn/btn-soft-green-large-focus-pressed-sides.gif)" !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-btn-disabled.x-btn-soft-green-large:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-soft-green-large-disabled-corners.gif), sides:url(images/btn/btn-soft-green-large-disabled-sides.gif)" !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
+.x-button-soft-green-large-cell > .x-grid-cell-inner {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/button/Button.scss:1251 */
+.x-button-soft-green-large-cell > .x-grid-cell-inner >.x-btn-soft-green-large {
+    vertical-align: top;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-btn-soft-green-toolbar-small {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    padding: 7px 7px 7px 7px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #9cc96b;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-btn-soft-green-toolbar-small-mc {
+    background-color: #9cc96b;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-btn-soft-green-toolbar-small {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-btn-soft-green-toolbar-small-frameInfo {
+    font-family: th-1-1-1-1-1-1-1-1-7-7-7-7;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-btn-soft-green-toolbar-small-tl {
+    background-position: 0 -2px;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-btn-soft-green-toolbar-small-tr {
+    background-position: right -3px;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-btn-soft-green-toolbar-small-bl {
+    background-position: 0 -4px;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-btn-soft-green-toolbar-small-br {
+    background-position: right -5px;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-btn-soft-green-toolbar-small-ml {
+    background-position: 0 top;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-btn-soft-green-toolbar-small-mr {
+    background-position: right top;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-btn-soft-green-toolbar-small-tc {
+    background-position: 0 0;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-btn-soft-green-toolbar-small-bc {
+    background-position: 0 -1px;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-btn-soft-green-toolbar-small-tr,
+.x-btn-soft-green-toolbar-small-br,
+.x-btn-soft-green-toolbar-small-mr {
+    padding-right: 1px;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-btn-soft-green-toolbar-small-tl,
+.x-btn-soft-green-toolbar-small-bl,
+.x-btn-soft-green-toolbar-small-ml {
+    padding-left: 1px;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-btn-soft-green-toolbar-small-tc {
+    height: 1px;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-btn-soft-green-toolbar-small-bc {
+    height: 1px;
+}
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
 .x-btn-soft-green-toolbar-small-tl,
 .x-btn-soft-green-toolbar-small-bl,
@@ -9359,20 +9596,18 @@
     display: none;
     content: "x-slicer:, stretch:left" !important;
 }
-/* D:/sersivion-git/ext62-app/sass/src/view/main/Viewport.scss:319 */
+/* D:/sersivion-git/ext62-app/sass/src/view/main/Viewport.scss:321 */
 .treelist-with-nav .x-panel-body {
     background-color: #32404e;
 }
-/* D:/sersivion-git/ext62-app/sass/src/view/main/Viewport.scss:322 */
+/* D:/sersivion-git/ext62-app/sass/src/view/main/Viewport.scss:324 */
 .sencha-dash-right-main-container {
     background-color: #304057;
+    margin: 0 0 0 2px;
     z-index: 0;
 }
-/* D:/sersivion-git/ext62-app/sass/src/view/main/Viewport.scss:327 */
+/* D:/sersivion-git/ext62-app/sass/src/view/main/Viewport.scss:331 */
 .x-treelist-navigation {
     width: 300px;
-}
-/* D:/sersivion-git/ext62-app/sass/src/view/main/Viewport.scss:330 */
-.x-treelist-navigation .x-treelist-item-floated > .x-treelist-container {
-    margin-left: -24px;
+    font-weight: bold;
 }

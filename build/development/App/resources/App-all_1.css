@@ -311,11 +311,11 @@
 }
 /* D:/sersivion-git/ext62-app/ext/packages/core/sass/src/list/TreeItem.scss:131 */
 .x-treelist-item-selected > .x-treelist-row {
-    background-color: #ffefbb;
+    background-color: #e1e8f4;
 }
 /* D:/sersivion-git/ext62-app/ext/packages/core/sass/src/list/TreeItem.scss:135 */
 .x-treelist-item-selected > .x-treelist-row-over {
-    background-color: #ffefbb;
+    background-color: #e1e8f4;
 }
 /* D:/sersivion-git/ext62-app/ext/packages/core/sass/src/list/TreeItem.scss:140 */
 .x-treelist-item-tool {
@@ -445,7 +445,7 @@
 }
 /* D:/sersivion-git/ext62-app/ext/packages/core/sass/src/list/TreeItem.scss:359 */
 .x-treelist-row-over {
-    background-color: #e6e7e9;
+    background-color: #e9eef7;
 }
 /* D:/sersivion-git/ext62-app/ext/packages/core/sass/src/list/TreeItem.scss:362 */
 .x-treelist-row-over > * > .x-treelist-item-icon {
@@ -519,14 +519,6 @@
     width: 1000000px;
     height: 1000000px;
     visibility: hidden;
-}
-/* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/src/Component.scss:2 */
-@font-face {
-    font-family: 'ext-watermark';
-    src: url(../resources/ext/ext-watermark/fonts/ext-watermark.eot?n6lnws);
-    src: url(../resources/ext/ext-watermark/fonts/ext-watermark.eot?#iefixn6lnws) format('embedded-opentype'), url(../resources/ext/ext-watermark/fonts/ext-watermark.woff?n6lnws) format('woff'), url(../resources/ext/ext-watermark/fonts/ext-watermark.ttf?n6lnws) format('truetype'), url(../resources/ext/ext-watermark/fonts/ext-watermark.svg?n6lnws#ext-watermark) format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/src/Component.scss:14 */
 .x-body {
@@ -2374,7 +2366,7 @@ the height of a multi-line element */
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/src/grid/column/Action.scss:5 */
 .x-grid-cell-inner-action-col :focus {
-    outline: 1px solid #304057;
+    outline: 0 solid #304057;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/src/grid/column/Action.scss:10 */
 .x-action-col-icon {
@@ -2395,7 +2387,7 @@ the height of a multi-line element */
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/src/grid/column/Check.scss:18 */
 .x-grid-checkcolumn-cell-inner :focus {
-    outline: 1px solid #304057;
+    outline: 0 solid #304057;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/src/grid/feature/Grouping.scss:1 */
 .x-group-hd-container {
@@ -2535,7 +2527,7 @@ the height of a multi-line element */
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/src/grid/plugin/RowExpander.scss:7 */
 .x-grid-row-expander:focus {
-    outline: 1px solid #304057;
+    outline: 0 solid #304057;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/src/grid/plugin/RowExpander.scss:11 */
 .x-grid-hide-row-expander-spacer .x-grid-row-expander-spacer {
@@ -7680,7 +7672,7 @@ body > .x-mask {
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/panel/Panel.scss:289 */
 .x-panel-header-default .x-tool-img {
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/panel/Panel.scss:306 */
 .x-panel-header-default-horizontal {
@@ -7749,21 +7741,6 @@ body > .x-mask {
     text-transform: none;
     padding: 0;
 }
-/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/panel/Panel.scss:418 */
-.x-panel-header-title-default > .x-title-text-default:after {
-    font-family: ext-watermark;
-    font-size: 22.5px;
-    content: 'b';
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: #b2bac1;
-}
-/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/panel/Panel.scss:431 */
-.x-panel-header-title-default > .x-title-text-default.x-rtl:after {
-    right: auto;
-    left: 0;
-}
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/panel/Panel.scss:440 */
 .x-panel-header-title-default > .x-title-icon-wrap-default.x-title-icon-top {
     height: 24px;
@@ -7820,17 +7797,17 @@ body > .x-mask {
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/panel/Panel.scss:669 */
 .x-panel-header-default {
     background-image: none;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/panel/Panel.scss:673 */
 .x-panel-header-default-vertical {
     background-image: none;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/panel/Panel.scss:678 */
 .x-rtl.x-panel-header-default-vertical {
     background-image: none;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/panel/Panel.scss:731 */
 .x-panel .x-panel-header-default-collapsed-border-top {
@@ -8052,7 +8029,7 @@ body > .x-mask {
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/panel/Panel.scss:289 */
 .x-panel-header-default-framed .x-tool-img {
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/panel/Panel.scss:306 */
 .x-panel-header-default-framed-horizontal {
@@ -8120,21 +8097,6 @@ body > .x-mask {
 .x-panel-header-title-default-framed > .x-title-text-default-framed {
     text-transform: none;
     padding: 0;
-}
-/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/panel/Panel.scss:418 */
-.x-panel-header-title-default-framed > .x-title-text-default-framed:after {
-    font-family: ext-watermark;
-    font-size: 20.25px;
-    content: 'b';
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: #b2bac1;
-}
-/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/panel/Panel.scss:431 */
-.x-panel-header-title-default-framed > .x-title-text-default-framed.x-rtl:after {
-    right: auto;
-    left: 0;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/panel/Panel.scss:440 */
 .x-panel-header-title-default-framed > .x-title-icon-wrap-default-framed.x-title-icon-top {
@@ -8324,11 +8286,11 @@ body > .x-mask {
     padding: 4px 4px 3px 4px;
     border-width: 2px 2px 0 2px;
     border-style: solid;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-default-framed-top-mc {
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-default-framed-top {
@@ -8442,16 +8404,16 @@ body > .x-mask {
     padding: 4px 4px 4px 3px;
     border-width: 2px 2px 2px 0;
     border-style: solid;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:226 */
 .x-rtl.x-panel-header-default-framed-right {
     background-image: none;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-default-framed-right-mc {
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-default-framed-right {
@@ -8574,11 +8536,11 @@ body > .x-mask {
     padding: 4px 4px 3px 4px;
     border-width: 0 2px 2px 2px;
     border-style: solid;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-default-framed-bottom-mc {
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-default-framed-bottom {
@@ -8692,16 +8654,16 @@ body > .x-mask {
     padding: 4px 4px 4px 3px;
     border-width: 2px 0 2px 2px;
     border-style: solid;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:226 */
 .x-rtl.x-panel-header-default-framed-left {
     background-image: none;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-default-framed-left-mc {
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-default-framed-left {
@@ -8824,11 +8786,11 @@ body > .x-mask {
     padding: 4px 4px 3px 4px;
     border-width: 2px;
     border-style: solid;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-default-framed-collapsed-top-mc {
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-default-framed-collapsed-top {
@@ -8942,16 +8904,16 @@ body > .x-mask {
     padding: 4px 4px 4px 3px;
     border-width: 2px;
     border-style: solid;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:226 */
 .x-rtl.x-panel-header-default-framed-collapsed-right {
     background-image: none;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-default-framed-collapsed-right-mc {
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-default-framed-collapsed-right {
@@ -9074,11 +9036,11 @@ body > .x-mask {
     padding: 4px 4px 3px 4px;
     border-width: 2px;
     border-style: solid;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-default-framed-collapsed-bottom-mc {
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-default-framed-collapsed-bottom {
@@ -9192,16 +9154,16 @@ body > .x-mask {
     padding: 4px 4px 4px 3px;
     border-width: 2px;
     border-style: solid;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:226 */
 .x-rtl.x-panel-header-default-framed-collapsed-left {
     background-image: none;
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-default-framed-collapsed-left-mc {
-    background-color: #dee6ed;
+    background-color: #395d91;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-default-framed-collapsed-left {
@@ -10016,21 +9978,6 @@ body > .x-mask {
 .x-window-header-title-default > .x-title-text-default {
     padding: 0;
     text-transform: none;
-}
-/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/window/Window.scss:339 */
-.x-window-header-title-default > .x-title-text-default:after {
-    font-family: ext-watermark;
-    font-size: 20.25px;
-    content: 'b';
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: #838c9a;
-}
-/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/window/Window.scss:352 */
-.x-window-header-title-default > .x-title-text-default.x-rtl:after {
-    right: auto;
-    left: 0;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/window/Window.scss:361 */
 .x-window-header-title-default > .x-title-icon-wrap-default.x-title-icon-top {
@@ -11314,7 +11261,7 @@ body > .x-mask {
 .x-form-trigger-wrap-default {
     border-width: 1px;
     border-style: solid;
-    border-color: #d0d0d0;
+    border-color: #dee2e9;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/form/field/Text.scss:229 */
 .x-form-trigger-wrap-default.x-form-trigger-wrap-focus {
@@ -12878,7 +12825,7 @@ a.x-color-picker-item:hover {
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:9 */
 .x-grid-body {
     background: #fff;
-    border-width: 2px 1px 1px;
+    border-width: 1px 1px 1px;
     border-style: solid;
     border-color: #d0d0d0;
 }
@@ -12897,12 +12844,12 @@ a.x-color-picker-item:hover {
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:30 */
 .x-grid-item-alt {
-    background-color: #f6f6f6;
+    background-color: #f2f6fd;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:34 */
 .x-grid-item-over {
     color: #404040;
-    background-color: #e6e7e9;
+    background-color: #e9eef7;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:41 */
 .x-grid-item-focused {
@@ -12923,17 +12870,17 @@ a.x-color-picker-item:hover {
     bottom: 0px;
     left: 0px;
     pointer-events: none;
-    border: 1px solid #304057;
+    border: 0 solid #304057;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:75 */
 .x-grid-item-selected {
     color: #404040;
-    background-color: #ffefbb;
+    background-color: #e1e8f4;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:81 */
 .x-grid-with-row-lines .x-grid-item {
     border-style: solid;
-    border-width: 1px 0 0;
+    border-width: 0 0 0;
     border-color: #e9e9e9;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:87 */
@@ -12943,31 +12890,31 @@ a.x-color-picker-item:hover {
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:93 */
 .x-grid-with-row-lines .x-grid-item.x-grid-item-over {
     border-style: solid;
-    border-color: #dadcdd;
+    border-color: #dde2eb;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:98 */
 .x-grid-with-row-lines .x-grid-item-over + .x-grid-item {
     border-top-style: solid;
-    border-top-color: #dadcdd;
+    border-top-color: #dde2eb;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:103 */
 .x-grid-with-row-lines .x-grid-item.x-grid-item-selected {
     border-style: solid;
-    border-color: #f2e3b2;
+    border-color: #d6dce8;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:108 */
 .x-grid-with-row-lines .x-grid-item-selected + .x-grid-item {
     border-top-style: solid;
-    border-top-color: #f2e3b2;
+    border-top-color: #d6dce8;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:113 */
 .x-grid-with-row-lines .x-grid-item:last-child {
-    border-bottom-width: 1px;
+    border-bottom-width: 0;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:123 */
 .x-ie8 .x-grid-with-row-lines .x-grid-item {
-    border-width: 1px 0;
-    margin-top: -1px;
+    border-width: 0 0;
+    margin-top: 0;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:128 */
 .x-ie8 .x-grid-with-row-lines .x-grid-item:first-child {
@@ -13008,31 +12955,31 @@ a.x-color-picker-item:hover {
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:230 */
 .x-grid-row .x-grid-cell-selected {
     color: #404040;
-    background-color: #ffefbb;
+    background-color: #e1e8f4;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:237 */
 .x-grid-with-col-lines .x-grid-cell {
     border-style: solid;
     border-color: #e9e9e9;
-    border-width: 0 1px 0 0;
+    border-width: 0 0 0 0;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:243 */
 .x-grid-with-col-lines .x-grid-item-over .x-grid-cell {
-    border-color: #dadcdd;
+    border-color: #dde2eb;
     border-style: solid;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:248 */
 .x-grid-with-col-lines .x-grid-item-selected .x-grid-cell {
-    border-color: #f2e3b2;
+    border-color: #d6dce8;
     border-style: solid;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:256 */
 .x-rtl.x-grid-with-col-lines .x-grid-cell {
-    border-width: 0 0 0 1px;
+    border-width: 0 0 0 0;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/Table.scss:261 */
 .x-grid-resize-marker {
-    width: 1px;
+    width: 0;
     background-color: #0f0f0f;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/view/DropZone.scss:1 */
@@ -13079,8 +13026,8 @@ a.x-color-picker-item:hover {
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:1 */
 .x-grid-header-ct {
     border: 1px solid #d0d0d0;
-    border-bottom-color: #fff;
-    background-color: #fff;
+    border-bottom-color: #f4f7fc;
+    background-color: #f4f7fc;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:14 */
 .x-accordion-item .x-grid-header-ct {
@@ -13093,7 +13040,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:31 */
 .x-grid-body {
-    border-top-color: #d0d0d0;
+    border-top-color: #dee2e9;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:35 */
 .x-hmenu-sort-asc {
@@ -13121,25 +13068,25 @@ a.x-color-picker-item:hover {
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:1 */
 .x-column-header {
-    border-right: 1px solid #d0d0d0;
+    border-right: 0 solid #dee2e9;
     color: #404040;
     font: 500 13px/19px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
     outline: 0;
-    background-color: #fff;
+    background-color: #f4f7fc;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:21 */
 .x-rtl.x-column-header {
     border-right: 0 none;
-    border-left: 1px solid #d0d0d0;
+    border-left: 0 solid #dee2e9;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:27 */
 .x-group-sub-header {
     background: transparent;
-    border-top: 1px solid #d0d0d0;
+    border-top: 0 solid #dee2e9;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:32 */
 .x-group-sub-header .x-column-header-inner {
-    padding: 6px 10px 6px 10px;
+    padding: 7px 10px 6px 10px;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:37 */
 .x-column-header-inner {
@@ -13162,7 +13109,7 @@ a.x-color-picker-item:hover {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    border: 1px solid #596679;
+    border: 1px solid #576578;
     pointer-events: none;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:64 */
@@ -13172,21 +13119,21 @@ a.x-color-picker-item:hover {
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:77 */
 .x-column-header-over {
     background-image: none;
-    background-color: #e6e7e9;
+    background-color: #e9eef7;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:81 */
 .x-column-header-sort-ASC,
 .x-column-header-sort-DESC {
     background-image: none;
-    background-color: #fff;
+    background-color: #f4f7fc;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:109 */
 .x-column-header-open {
-    background-color: #e6e7e9;
+    background-color: #e9eef7;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:112 */
 .x-column-header-open .x-column-header-trigger {
-    background-color: #dadcdd;
+    background-color: #dde2eb;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:117 */
 .x-column-header-over .x-column-header-trigger,
@@ -13304,7 +13251,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/Check.scss:18 */
 .x-column-header-checkbox {
-    border-color: #fff;
+    border-color: #f4f7fc;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/Check.scss:20 */
 .x-column-header-checkbox .x-column-header-text {
@@ -13338,7 +13285,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/RowNumberer.scss:1 */
 .x-grid-cell-row-numberer {
-    background-color: #fff;
+    background-color: #f4f7fc;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/column/RowNumberer.scss:10 */
 .x-grid-cell-inner-row-numberer {
@@ -13911,7 +13858,7 @@ a.x-color-picker-item:hover {
 .x-grid-group-hd {
     border-width: 0 0 1px 0;
     border-style: solid;
-    border-color: #d0d0d0;
+    border-color: #dee2e9;
     padding: 8px 10px;
     background: #fff;
     cursor: pointer;
@@ -14746,22 +14693,22 @@ a.x-color-picker-item:hover {
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:1 */
 .x-grid-locked .x-grid-inner-locked {
-    border-width: 0 2px 0 0;
+    border-width: 0 1px 0 0;
     border-style: solid;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:6 */
 .x-grid-locked .x-rtl.x-grid-inner-locked {
-    border-width: 0 0 0 2px;
+    border-width: 0 0 0 1px;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:12 */
 .x-grid-locked-split .x-grid-inner-normal {
-    border-width: 0 0 0 2px;
+    border-width: 0 0 0 1px;
     border-style: solid;
-    border-left-color: #d0d0d0;
+    border-left-color: #dee2e9;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:18 */
 .x-grid-locked-split .x-rtl.x-grid-inner-normal {
-    border-width: 0 2px 0 0;
+    border-width: 0 1px 0 0;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:23 */
 .x-grid-locking-body {
@@ -14769,7 +14716,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:27 */
 .x-grid-inner-locked {
-    border-right-color: #d0d0d0;
+    border-right-color: #dee2e9;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:32 */
 .x-grid-inner-locked .x-column-header-last,
@@ -14783,7 +14730,7 @@ a.x-color-picker-item:hover {
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:46 */
 .x-rtl.x-grid-inner-locked {
     border-right-color: #dee6ed;
-    border-left-color: #d0d0d0;
+    border-left-color: #dee2e9;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:48 */
 .x-rtl.x-grid-inner-locked .x-grid-row .x-column-header-last {
@@ -14862,12 +14809,12 @@ a.x-color-picker-item:hover {
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/plugin/RowEditing.scss:60 */
 .x-grid-with-col-lines .x-grid-row-editor .x-form-cb {
-    margin-right: 1px;
+    margin-right: 0;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/grid/plugin/RowEditing.scss:65 */
 .x-grid-with-col-lines .x-grid-row-editor .x-rtl.x-form-cb {
     margin-right: 0;
-    margin-left: 1px;
+    margin-left: 0;
 }
 /* D:/sersivion-git/ext62-app/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-grid-row-editor-buttons-default-bottom {
@@ -16350,4 +16297,17 @@ div.x-border-layout-ct {
 /* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2501 */
 .x-ie8 .x-tab-focus.x-tab-over.x-tab-default.x-tab-rotate-right {
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2527 */
+.x-tab-bar-plain .x-tab-focus.x-tab-over.x-tab-default .x-tab-inner-default {
+    color: #606060;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2558 */
+.x-tab-bar-plain .x-tab-focus.x-tab-over.x-tab-default .x-tab-icon-el {
+    color: #606060;
+}
+/* D:/sersivion-git/ext62-app/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2581 */
+.x-tab.x-tab-active.x-tab-default {
+    border-color: #fff;
+    background-color: #fff;
 }

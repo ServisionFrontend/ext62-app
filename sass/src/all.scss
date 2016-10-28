@@ -4,5 +4,26 @@
     $glyph-color:$gt-color,
     $background-color:$gt-btn-bg,
     $border-color:$gt-btn-bg,
-    $background-color-over:$gt-btn-over-bg
+    $border-color-over:$gt-btn-border-color-over,
+    $border-color-focus:$gt-bg-focus-color,
+    $inner-border-color-focus:$gt-bg-focus-color,
+    $background-color-over:$gt-btn-bg,
+    $background-color-focus:$gt-bg-focus-color,
+    $background-color-pressed:$gt-bg-focus-color,
+    $border-color-pressed:$gt-btn-bg,
+    $inner-border-width-focus-pressed:0
 );
+@include extjs-panel-ui(
+	$ui:'grid',
+	$ui-header-background-color:#fff
+);
+.v-line{
+    display: inline-block;
+    font-weight: bold;
+     color:$main-bg;
+    border-left: 2px solid $v-line-color;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 0 0 5px;
+    margin-left: 10px;
+}
